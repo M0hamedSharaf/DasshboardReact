@@ -1,0 +1,12 @@
+
+ID	Name	Email	Age	Phone	Address	City	Zipcode	Registrar ID
+1	keffCuyWlu	keffCuyWlu@example.com	30	1430968169	KNZWQTDrMeoMcETkVUhz	dxIopHcV	37303	86
+2	oHrIGFatDC	oHrIGFatDC@example.com	23	1361434520	CJisfflIQDZYdTZTpswp	MEHzyZDw	63987	75
+3	qpxvublTkl	qpxvublTkl@example.com	42	0244523325	ayCtWfDXPfrYeOTtlxcg	SbwNUhIG	09493	43
+4	SkAPiofPWf	SkAPiofPWf@example.com	34	3809794675	bAnWJoZogMAfhRnsWWvU	YqNfgdVs	94914	52
+5	swmYFopTtj	swmYFopTtj@example.com	60	6039564798	ycPyQOmSPblFVQWwIuuk	dNsNsNDY	35193	73
+6	zQKlrLXErX	zQKlrLXErX@example.com	31	0960525065	AUzdpcoveJGYaTrdikOL	hFXeaMAS	90444	37
+7	vxqYaRvCdi	vxqYaRvCdi@example.com	49	8299235015	VGAZUzIlfWucqKZJRqlZ	oZpSyehM	09067	66
+8	iDkLguETPa	iDkLguETPa@example.com	24	6420457105	pjFEccCyXtQFFohNDlry	yEEXCUVA	55961	87
+9	OScYNVAHIt	OScYNVAHIt@example.com	78	0147335236	dZaNTXzMIYfMxKkFOCQa	guLxZtLs	61816	34
+10	nuoIPJRYSD	nuoIPJRYSD@example.com	32	1318940479	mweOXHXDSSInSWSSlNbI	jTQuatLM	79410	37
