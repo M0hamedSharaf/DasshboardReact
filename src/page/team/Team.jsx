@@ -4,6 +4,7 @@ import { rows } from "./data";
 import { Box, Typography } from "@mui/material";
 import { useTheme } from "@emotion/react";
 import { AdminPanelSettingsOutlined, LockOpenOutlined, SecurityOutlined } from "@mui/icons-material";
+import Header from "../../component/Header";
 
 const Team = () => {
     const theme = useTheme()
@@ -64,6 +65,7 @@ const Team = () => {
     ];
     return (
         <Box sx={{ height: 500, width: '98%' ,mx : "auto" }}>
+            <Header title={"بيانات الموظفين"} subTitle={"لمعرفه بيانات تفاصيل الموظفين"}/>
             <DataGrid rows={rows}
                 // @ts-ignore
                 columns={columns} />

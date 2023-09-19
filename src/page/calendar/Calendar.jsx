@@ -6,6 +6,7 @@ import timeGridPlugin from '@fullcalendar/timegrid'
 import interactionPlugin from '@fullcalendar/interaction'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import './calendar.css'
+import Header from "../../component/Header";
 
 
 function renderEventContent(eventInfo) {
@@ -69,7 +70,10 @@ const Calendar = () => {
     }
 
     return (
+     <div>
+           <Header title={"مواعيدك"} subTitle={"مواعيدك يا عم المهم"}/>
         <Stack direction={"row"} >
+            
             <Paper className='demo-app-sidebar'>
                     <h2 style={{textAlign:"center"}}>All Events ({currentEvents.length})</h2>
                     <ul>
@@ -104,6 +108,7 @@ const Calendar = () => {
                 />
             </div>
         </Stack>
+     </div>
     )
 };
 export default Calendar

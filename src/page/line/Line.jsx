@@ -2,11 +2,13 @@ import { ResponsiveCalendar } from "@nivo/calendar";
 import React from "react";
 import {data} from "./data"
 import { Box, useTheme } from "@mui/material";
+import Header from "../../component/Header";
 
 const Line = () =>{
     const theme = useTheme()
     return(
         <Box sx={{height:"100vh"}}>
+            <Header title={"اعمالي"} subTitle={"الضغوطات خلال فتره عملي اثناء اداره الشركات"}/>
           <ResponsiveCalendar
         data={data}
         theme={

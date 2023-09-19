@@ -1,4 +1,5 @@
 import { Alert, Box, Button, MenuItem, Snackbar, Stack, TextField } from "@mui/material";
+import Header from "../../component/Header";
 import React from "react";
 import { useForm } from "react-hook-form"
 
@@ -68,6 +69,8 @@ const Form = () => {
       noValidate
       autoComplete="off"
     >
+
+    <Header title={"إضافة بيانات موظفين"} subTitle={"مطلعش عين الموظف الى انت هضيفه عندك لوسمحت"}/>
 
 
       <Stack direction={"row"} sx={{ gap: 2 }} >

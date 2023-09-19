@@ -1,5 +1,6 @@
 import { Box, useTheme } from "@mui/material";
 import { ResponsivePie } from "@nivo/pie";
+import Header from "../../component/Header";
 import React from "react";
 
 
@@ -40,6 +41,7 @@ const Pie2 = ({ isDashbord = false }) => {
     const theme = useTheme()
     return (
         <Box sx={{ height: isDashbord ? "220px" : "75vh" }}>
+             <Header title={"مخطط دائري"} subTitle={"مخطط دائري لمعرفة المستجدات لعملي"}/>
             <ResponsivePie
                 data={data}
                 theme={

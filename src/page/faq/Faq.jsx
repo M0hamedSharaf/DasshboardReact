@@ -5,6 +5,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Stack } from "@mui/material";
+import Header from "../../component/Header";
 
 const Faq = () => {
 
@@ -17,6 +18,7 @@ const Faq = () => {
 
     return (
         <Stack direction={"column"} gap={2}>
+            <Header title={"حفظ البيانات"} subTitle={"إلقت نظره على بياناتك المهمه"}/>
             <Accordion 
             defaultExpanded
             expanded={
